@@ -11,8 +11,8 @@ import SwiftUI
 struct RichStatusApp: App {
 
     @ObservedObject var weatherKitManager = WeatherKitManager()
-    @StateObject var locationDataManager = LocationDataManager()
-    @State var cityName = LocationDataManager.AddressEnum.unknown
+    @ObservedObject var locationManager = LocationManager()
+    @State var cityName = LocationManager.AddressEnum.unknown
     var body: some Scene {
         setupWeatherIcon()
     private func setupWeatherIcon() -> MenuBarExtra<some View, Button<Text>> {

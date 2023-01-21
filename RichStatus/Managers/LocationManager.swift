@@ -13,6 +13,14 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     var locationManager = CLLocationManager()
     @Published var location = CLLocation()
 
+    var lat: Double {
+        self.location.coordinate.latitude
+    }
+
+    var lon: Double {
+        location.coordinate.longitude
+    }
+
     override init() {
         super.init()
         self.locationManager.delegate = self
@@ -30,7 +38,8 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
 
         case .authorized:
             print("status authorized")
-            let location = self.locationManager.location
+            guard let location = manager.location else { return }
+            self.location = location
             print("location: \(String(describing: location))")
 
         case .notDetermined:
