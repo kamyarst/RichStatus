@@ -23,13 +23,13 @@ import WeatherKit
     }
 
     var symbol: String {
-        self.weather?.currentWeather.symbolName ?? "xmark"
+        self.weather?.currentWeather.symbolName ?? "xmark.circle"
     }
 
     var temp: String {
-        let temp = self.weather?.currentWeather.temperature
+        guard let temp = self.weather?.currentWeather.temperature else { return "Loading..." }
 
-        let convert = temp?.formatted().filter { $0 != "C" }
-        return convert ?? "Loading Weather Data"
+        let convert = Int(temp.value)
+        return "\(convert)°"
     }
 }
