@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1429E39029776301002941D4 /* RSUserDefaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429E38F29776301002941D4 /* RSUserDefaultTests.swift */; };
+		1429E39229776CE1002941D4 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429E39129776CE1002941D4 /* AppData.swift */; };
+		1429E39429777034002941D4 /* WeatherSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429E39329777034002941D4 /* WeatherSettingsView.swift */; };
+		1429E3962978129E002941D4 /* TimerSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429E3952978129E002941D4 /* TimerSettingsView.swift */; };
+		1429E39A297815AB002941D4 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429E399297815AB002941D4 /* TimerManager.swift */; };
 		14A4645F296B8CF800A60BDF /* RichStatusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A4645E296B8CF800A60BDF /* RichStatusApp.swift */; };
-		14A46461296B8CF800A60BDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A46460296B8CF800A60BDF /* ContentView.swift */; };
+		14A46461296B8CF800A60BDF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A46460296B8CF800A60BDF /* SettingsView.swift */; };
 		14A46463296B8CF900A60BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A46462296B8CF900A60BDF /* Assets.xcassets */; };
-		14A46466296B8CF900A60BDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A46465296B8CF900A60BDF /* Preview Assets.xcassets */; };
-		14A46471296B8CF900A60BDF /* RichStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A46470296B8CF900A60BDF /* RichStatusTests.swift */; };
 		14A4647B296B8CF900A60BDF /* RichStatusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A4647A296B8CF900A60BDF /* RichStatusUITests.swift */; };
 		14A4647D296B8CF900A60BDF /* RichStatusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A4647C296B8CF900A60BDF /* RichStatusUITestsLaunchTests.swift */; };
+		14E7A6FB296F66DB005508A9 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7A6FA296F66DB005508A9 /* WeatherManager.swift */; };
+		14E7A6FD296F67B5005508A9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7A6FC296F67B5005508A9 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +39,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1429E38F29776301002941D4 /* RSUserDefaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSUserDefaultTests.swift; sourceTree = "<group>"; };
+		1429E39129776CE1002941D4 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		1429E39329777034002941D4 /* WeatherSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSettingsView.swift; sourceTree = "<group>"; };
+		1429E3952978129E002941D4 /* TimerSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSettingsView.swift; sourceTree = "<group>"; };
+		1429E399297815AB002941D4 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
 		14A4645B296B8CF800A60BDF /* RichStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A4645E296B8CF800A60BDF /* RichStatusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichStatusApp.swift; sourceTree = "<group>"; };
-		14A46460296B8CF800A60BDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14A46460296B8CF800A60BDF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		14A46462296B8CF900A60BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		14A46465296B8CF900A60BDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14A46467296B8CF900A60BDF /* RichStatus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RichStatus.entitlements; sourceTree = "<group>"; };
 		14A4646C296B8CF900A60BDF /* RichStatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichStatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14A46470296B8CF900A60BDF /* RichStatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichStatusTests.swift; sourceTree = "<group>"; };
 		14A46476296B8CF900A60BDF /* RichStatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichStatusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A4647A296B8CF900A60BDF /* RichStatusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichStatusUITests.swift; sourceTree = "<group>"; };
 		14A4647C296B8CF900A60BDF /* RichStatusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichStatusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14E7A6FA296F66DB005508A9 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		14E7A6FC296F67B5005508A9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1429E39729781306002941D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14A46460296B8CF800A60BDF /* SettingsView.swift */,
+				1429E3952978129E002941D4 /* TimerSettingsView.swift */,
+				1429E39329777034002941D4 /* WeatherSettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1429E3982978131F002941D4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				14E7A6FC296F67B5005508A9 /* LocationManager.swift */,
+				14E7A6FA296F66DB005508A9 /* WeatherManager.swift */,
+				1429E399297815AB002941D4 /* TimerManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		14A46452296B8CF800A60BDF = {
 			isa = PBXGroup;
 			children = (
@@ -95,27 +125,20 @@
 		14A4645D296B8CF800A60BDF /* RichStatus */ = {
 			isa = PBXGroup;
 			children = (
-				14A4645E296B8CF800A60BDF /* RichStatusApp.swift */,
-				14A46460296B8CF800A60BDF /* ContentView.swift */,
-				14A46462296B8CF900A60BDF /* Assets.xcassets */,
 				14A46467296B8CF900A60BDF /* RichStatus.entitlements */,
-				14A46464296B8CF900A60BDF /* Preview Content */,
+				1429E39129776CE1002941D4 /* AppData.swift */,
+				14A4645E296B8CF800A60BDF /* RichStatusApp.swift */,
+				14A46462296B8CF900A60BDF /* Assets.xcassets */,
+				1429E3982978131F002941D4 /* Managers */,
+				1429E39729781306002941D4 /* Views */,
 			);
 			path = RichStatus;
-			sourceTree = "<group>";
-		};
-		14A46464296B8CF900A60BDF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				14A46465296B8CF900A60BDF /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		14A4646F296B8CF900A60BDF /* RichStatusTests */ = {
 			isa = PBXGroup;
 			children = (
-				14A46470296B8CF900A60BDF /* RichStatusTests.swift */,
+				1429E38F29776301002941D4 /* RSUserDefaultTests.swift */,
 			);
 			path = RichStatusTests;
 			sourceTree = "<group>";
@@ -200,6 +223,7 @@
 					};
 					14A4646B296B8CF900A60BDF = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 						TestTargetID = 14A4645A296B8CF800A60BDF;
 					};
 					14A46475296B8CF900A60BDF = {
@@ -233,7 +257,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14A46466296B8CF900A60BDF /* Preview Assets.xcassets in Resources */,
 				14A46463296B8CF900A60BDF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14A46461296B8CF800A60BDF /* ContentView.swift in Sources */,
+				14E7A6FB296F66DB005508A9 /* WeatherManager.swift in Sources */,
+				1429E39A297815AB002941D4 /* TimerManager.swift in Sources */,
+				14A46461296B8CF800A60BDF /* SettingsView.swift in Sources */,
+				1429E39429777034002941D4 /* WeatherSettingsView.swift in Sources */,
+				14E7A6FD296F67B5005508A9 /* LocationManager.swift in Sources */,
+				1429E3962978129E002941D4 /* TimerSettingsView.swift in Sources */,
 				14A4645F296B8CF800A60BDF /* RichStatusApp.swift in Sources */,
+				1429E39229776CE1002941D4 /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14A46471296B8CF900A60BDF /* RichStatusTests.swift in Sources */,
+				1429E39029776301002941D4 /* RSUserDefaultTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,16 +448,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RichStatus/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 5HWWH975WQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To detect your location and provide weather data";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sehati.me.RichStatus;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sehati.richStatus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -444,16 +475,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RichStatus/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 5HWWH975WQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To detect your location and provide weather data";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sehati.me.RichStatus;
+				PRODUCT_BUNDLE_IDENTIFIER = me.sehati.richStatus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,14 +498,23 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sehati.me.RichStatusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RichStatus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RichStatus";
 			};
@@ -483,14 +525,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sehati.me.RichStatusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RichStatus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RichStatus";
 			};
